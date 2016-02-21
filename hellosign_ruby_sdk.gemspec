@@ -29,7 +29,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'hello_sign/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'hellosign-ruby-sdk'
+  spec.name          = 'hellosign_ruby_sdk'
   spec.version       = HelloSign::VERSION
   spec.authors       = 'HelloSign'
   spec.email         = 'support@hellosign.com'
